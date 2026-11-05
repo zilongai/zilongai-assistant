@@ -57,6 +57,15 @@ For version 0.3.25 and later. The assistant updates itself, so a new install is 
 5. Your own Codex rules, such as "only use the official image tool", are fine. While connected, ZilongAI image generation goes first, and your rules apply only if it fails.
 6. Image generation needs the assistant running. When you quit the assistant, this feature goes away and Codex's own image settings come back. Changes you made to instructions and skills in Codex in the meantime are kept.
 
+## Making music (0.3.31 and later)
+
+1. With the assistant open and Claude Code or Codex connected, start a new conversation and just ask for a song, such as "make a calm piano piece with no vocals" or "write a pop song about summer". You can also give it your own lyrics. There is no sign-in and no key to enter.
+2. It usually takes one to a few minutes. Songs are saved as `.m4a` files in the `outputs` folder of your current project. The reply tells you where they are and how many points they used.
+3. Each song costs 100 points, and one request usually makes two songs, so 200 points. 200 points are held when it starts. If only one song is delivered, 100 come back. If it fails, all of them come back.
+4. Music needs a regular card; test cards cannot make music. It works as soon as you redeem a regular card.
+5. Each account can make 1 at a time and up to 5 a day. The day changes at midnight China time, and fully refunded tasks do not count.
+6. Music needs the assistant running. When you quit the assistant, this feature goes away.
+
 ## Points, validity and top-ups
 
 - The **Overview** page shows your **Points** and what you have **Used today**.
@@ -105,6 +114,11 @@ Contact the seller of your card.
 | Image generation says `ZilongAI Assistant is not running` | Open the assistant and try again. If it is already open, quit and reopen it. |
 | Image generation says you are out of points or your points expired | Top up and try again. |
 | You ask for an image and it says it needs an OpenAI key, has no image tool, or cannot switch because of a rule | Start a new conversation and ask again, because older conversations cannot see the new image settings. If it still happens, restart the app or terminal window from the assistant. |
+| You ask for a song and it says it only has the image tool, or no music tool | This conversation was opened before the update. Close it and start a new one. If that does not help, quit and reopen the assistant. |
+| It says a song is already being made | Each account can make 1 at a time. Wait for it to finish before starting the next one. |
+| It says you have used today's songs | The limit is 5 a day. Try again after midnight China time. |
+| It says music needs a regular card | Test cards cannot make music. It works as soon as you redeem a regular card. |
+| A song will not open or has no sound | The file is an `.m4a` using the Opus codec, which a few older players do not support. Try VLC. |
 | Your points expired | Top up during the 7-day freeze and all your points come back. |
 | You forgot your account number | It is at the bottom of the sidebar and in **Settings** on your old computer. If that computer is gone, contact support. |
 
