@@ -1,0 +1,7 @@
+*.exe
+*.sig
+downloads/
+tmp/
+temp/
+__pycache__/
+*.pyc
