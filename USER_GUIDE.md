@@ -90,9 +90,19 @@ The assistant checks for a new version when it opens and every 6 hours after tha
 
 Uninstall ZilongAI Assistant from **Settings** > **Apps** in Windows. Claude Code and Codex go back to their previous settings automatically.
 
+## Usage rules
+
+The following are prohibited:
+
+- Distillation: collecting model outputs in bulk to train or fine-tune other models.
+- Jailbreaking: using prompts or other means to bypass a model's safety limits.
+- Anything else that breaks the model providers' usage policies.
+
+Accounts found doing this are permanently banned and points are not refunded. Continuing to use the service means you accept these rules.
+
 ## Refunds
 
-Contact the seller of your card.
+Contact the seller of your card. Points are not refunded on accounts banned for breaking the usage rules.
 
 ## Troubleshooting
 
