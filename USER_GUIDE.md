@@ -84,7 +84,7 @@ For version 0.3.25 and later. The assistant updates itself, so a new install is 
 
 ## Updates
 
-The assistant checks for a new version every 6 hours. When one is ready, choose **Restart to update**. It installs once running requests finish and reopens by itself. Open Claude Code and Codex windows keep working.
+The assistant checks for a new version when it opens and every 6 hours after that. When one is ready, your little dragon tells you at the top of the home page: choose **Restart to update**. It installs once running requests finish and reopens by itself. Open Claude Code and Codex windows keep working.
 
 ## Uninstalling
 
