@@ -1,0 +1,15 @@
+{
+  "version": "0.3.41",
+  "notes": "Linux \u9996\u7248\uff1a\u5f00\u901a\u3001\u63a5\u7ba1\u6062\u590d\u3001MCP\u3001\u77e5\u8bc6\u5e93\u4e0e\u5e94\u7528\u5185\u66f4\u65b0\u3002",
+  "pub_date": "2026-11-09T16:09:10.922649Z",
+  "platforms": {
+    "linux-x86_64-appimage": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcU0rVG5XWHJ0QWFhZDRqaDFHN0xUL1RRT0dqRXo1MVZZWitHTVJ1QkZWUjltK0IvMFRHOEdLdTZjb1BrWXZ5azFSbHVNSDgzV1o3V3RTUEJVSHlwK3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQwNTUwCWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40MV9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMy40MQp5RXcxNFlFTzdkbzd6Zm9QZzV2blBDdFBObURuVHd0OENpdnlac29PT3dNekF5TmRYS0NDdDRoWmRCbytiMC9UR3hVeEd4azNrUnNqZnplRytsNTVBdz09Cg==",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.41/zilongai-assistant_0.3.41_amd64.AppImage"
+    },
+    "linux-x86_64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUNIbmdDbk1VK0hjNS9XSVRLS2VoNEc5aUN1eEo0L1E3LzBYL2VmMjdodFNJdnhaRTZFMW1JT0hIbkZ5YUJ6SnkvZSt2NmZEZ0FDQW4yQ1lieFpKaVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQwNTUwCWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40MV9hbWQ2NC5kZWIJdmVyc2lvbjowLjMuNDEKK1RiTkdtQWpmU0ZQRVdzTEZrVStaT1J2aTRBVm1xT2l5RGJXaGRnSnN0Zm5GZVY3RjFwazRHQmM5aDRvYTBPd0pET3IrQ2Q4Yy9rbmtCWVpsa1BIQVE9PQo=",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.41/zilongai-assistant_0.3.41_amd64.deb"
+    }
+  }
+}
