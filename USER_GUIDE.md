@@ -1,6 +1,16 @@
 # ZilongAI Assistant: User Guide
 
-Updated for version 0.3.39. Windows updates are delivered through the assistant.
+Windows 0.3.39, Apple silicon Mac 0.3.40, and Linux x64 0.3.41. Each platform receives its own signed updates.
+
+## Linux x64 quick start
+
+On Ubuntu desktop (22.04 or compatible), download the [deb package](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.41/zilongai-assistant_0.3.41_amd64.deb) or [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.41/zilongai-assistant_0.3.41_amd64.AppImage).
+
+- Install the deb using the system software installer. Installation and deb updates require system approval.
+- For AppImage, allow execution in the file properties, then open it. Keep it in a writable folder for application updates. A system without FUSE can use the runtime's `--appimage-extract-and-run` option.
+- Unlock your system keyring if asked. Enter your Assistant card code, then install or take over Claude Code and Codex CLI from the home screen. The Linux edition integrates the command-line tools.
+- Use **Check for updates → Restart to update** for signed updates. Close the assistant using **Quit and restore settings** when finished; closing the window keeps it running.
+- Checksums and signatures are on the [Linux release page](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.41).
 
 ## Before you start
 
