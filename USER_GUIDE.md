@@ -4,7 +4,7 @@ Updated for version 0.3.39. Windows updates are delivered through the assistant.
 
 ## Before you start
 
-- A 64-bit Windows 10 or 11 PC. Apple silicon Macs use a separate package and manual updates; ask support for it. Intel Macs are not supported.
+- A 64-bit Windows 10 or 11 PC, or an Apple silicon Mac. [Download the Mac 0.3.39 DMG](https://github.com/zilongai/zilongai-assistant/releases/download/v0.3.39/zilongai-assistant_aarch64.dmg). Mac updates require manual installation: quit the assistant, open the DMG, drag it into Applications and replace the previous version, then reopen it. Intel Macs are not supported.
 - Claude Code and Codex are optional. If you already have them (command line, VS Code extension or desktop app), the assistant takes them over directly. If not, install them from the assistant after activation.
 - A ZilongAI Assistant card code. Other card codes cannot be used for activation.
 
