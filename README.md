@@ -10,7 +10,7 @@ Connects Claude Code and Codex on your PC to ZilongAI in one click. No sign-up a
 
 **打不开 GitHub**（例如在中国大陆）时，请联系向您提供卡密的代理或客服获取下载方式。
 
-1. 准备一台 Windows 10 / 11（64 位）电脑，暂不支持 Mac。Claude Code、Codex 没装也可以，开通后在助手里一键安装。Codex 命令行版在官方下载不了时，会自动改从国内镜像下载同一份官方程序并核对校验值；Codex 客户端只能从微软商店装，商店装不上可以改用命令行版。
+1. 准备一台 Windows 10 / 11（64 位）电脑，Apple 芯片 Mac 使用单独安装包并手动更新，请联系客服；不支持 Intel Mac。Claude Code、Codex 没装也可以，开通后在助手里一键安装。Codex 命令行版在官方下载不了时，会自动改从国内镜像下载同一份官方程序并核对校验值；Codex 客户端只能从微软商店装，商店装不上可以改用命令行版。
 2. 下载安装包。浏览器如提示「不常下载」，选择「保留」。
 3. 运行安装包。如出现「Windows 已保护你的电脑」，点击「更多信息」，再点击「仍要运行」。安装包尚未购买代码签名证书；请只从可信的下载链接获取。软件安装在当前用户目录，不需要管理员权限。
 4. 打开「子龙AI 助手」，粘贴卡密，点击「开通」，并记下账户号：换电脑时要用它和卡密一起找回账户。开通需要「子龙AI 助手专用」卡密，其他卡密不能用来开通。
@@ -30,7 +30,7 @@ Get-FileHash .\zilongai-assistant_x64-setup.exe -Algorithm SHA256
 
 **If GitHub does not open** (for example in mainland China), contact your reseller or support for a way to download it.
 
-1. Use a 64-bit Windows 10 or 11 PC. Mac is not supported yet. You do not need Claude Code or Codex installed already: after activation, the assistant can install them in one click. If the official Codex CLI download is unavailable, the assistant downloads the same official program from a mirror in China and verifies its checksum. The Codex app comes only from the Microsoft Store; if the Store cannot install it, you can use the command-line version instead.
+1. Use a 64-bit Windows 10 or 11 PC. Apple silicon Macs use a separate package and manual updates; ask support for it. Intel Macs are not supported. You do not need Claude Code or Codex installed already: after activation, the assistant can install them in one click. If the official Codex CLI download is unavailable, the assistant downloads the same official program from a mirror in China and verifies its checksum. The Codex app comes only from the Microsoft Store; if the Store cannot install it, you can use the command-line version instead.
 2. Download the installer. If the browser says it is not commonly downloaded, choose **Keep**.
 3. Run the installer. If Windows displays **Windows protected your PC**, choose **More info**, then **Run anyway**. The installer does not yet have a purchased code-signing certificate; use only a trusted download link. It installs in your user directory and does not require administrator privileges.
 4. Open ZilongAI Assistant, paste your card code and choose **Activate**. Write down your account number: you need it with a card code to restore your account on a new computer. Activation requires a ZilongAI Assistant card code; other card codes cannot be used.

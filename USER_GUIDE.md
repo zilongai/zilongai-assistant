@@ -1,10 +1,10 @@
 # ZilongAI Assistant: User Guide
 
-For version 0.3.25 and later. The assistant updates itself, so a new install is always on a current version.
+Updated for version 0.3.39. Windows updates are delivered through the assistant.
 
 ## Before you start
 
-- A 64-bit Windows 10 or 11 PC. Mac is not supported yet.
+- A 64-bit Windows 10 or 11 PC. Apple silicon Macs use a separate package and manual updates; ask support for it. Intel Macs are not supported.
 - Claude Code and Codex are optional. If you already have them (command line, VS Code extension or desktop app), the assistant takes them over directly. If not, install them from the assistant after activation.
 - A ZilongAI Assistant card code. Other card codes cannot be used for activation.
 
@@ -65,6 +65,18 @@ For version 0.3.25 and later. The assistant updates itself, so a new install is 
 4. Music needs a regular card; test cards cannot make music. It works as soon as you redeem a regular card.
 5. Each account can make 1 at a time and up to 5 a day. The day changes at midnight China time, and fully refunded tasks do not count.
 6. Music needs the assistant running. When you quit the assistant, this feature goes away.
+
+## Knowledge base and Obsidian (0.3.39 and later)
+
+After takeover, the model can proactively save useful preferences, project decisions and milestone summaries, then retrieve them in a new chat. Routine memory writes do not require a confirmation prompt. Your explicit instructions, such as do not remember or ask first, take priority.
+
+In Settings → Knowledge base, choose Automatic, Read only or Off, or select an existing knowledge folder. Changing its location does not move existing notes. Choose Open folder, then open that folder as a vault in Obsidian. No plugin is required. Notes are ordinary Markdown files and remain when the assistant exits or is uninstalled.
+
+Changes apply to subsequent memory calls. Pausing or quitting the assistant, or disabling the corresponding takeover, stops further memory calls from existing assistant-mode MCP sessions. Content already included in a chat is not retracted. Relevant note excerpts are sent to the model as part of the conversation. Reopen the AI session if memory tools are missing after an update.
+
+## Claude Agent SDK guide
+
+Settings includes a Python / TypeScript setup guide. It distinguishes existing protocol compatibility from dedicated end-to-end SDK testing, which has not been completed. This release adds documentation; it does not introduce a new SDK protocol or backend change.
 
 ## Points, validity and top-ups
 
