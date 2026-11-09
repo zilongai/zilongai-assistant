@@ -8,7 +8,7 @@ Connects Claude Code and Codex on your PC to ZilongAI in one click. No sign-up a
 
 **[下载 Windows 安装包](https://github.com/zilongai/zilongai-assistant/releases/latest/download/zilongai-assistant_x64-setup.exe)**：点一下就开始下载，总是最新版，以后会自动更新。朋友也要用的话，转发这个链接就行，不用发压缩包。
 
-**Mac Apple 芯片版 0.3.39：[下载 DMG](https://github.com/zilongai/zilongai-assistant/releases/download/v0.3.39/zilongai-assistant_aarch64.dmg) · [下载 ZIP](https://github.com/zilongai/zilongai-assistant/releases/download/v0.3.39/zilongai-assistant_aarch64.zip)**。Mac 当前需手动安装升级：退出旧版助手，打开 DMG，将「子龙AI 助手」拖入「应用程序」并替换旧版，再重新打开。不支持 Intel Mac。应用采用临时签名、尚未经过 Apple 公证；首次打开被 macOS 提示拦下时，在「系统设置 → 隐私与安全性」中选择「仍要打开」。
+**Mac Apple 芯片版 0.3.40：[首次安装／旧版升级（DMG）](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.40/zilongai-assistant_0.3.40_aarch64.dmg)**。从本版起，在助手里点「检查更新 → 重启更新」即可下载、安装并自动重启。0.3.39 及更早的 Mac 版需先安装一次本版：退出旧版助手，打开 DMG，将「子龙AI 助手」拖入「应用程序」并替换旧版，再重新打开。不支持 Intel Mac。首次打开被 macOS 提示拦下时，在「系统设置 → 隐私与安全性」中选择「仍要打开」。系统要求读取钥匙串时请允许；取消后可在助手中重试，无需重新开通账户。应用采用临时签名，尚未经过 Apple 公证。
 
 **打不开 GitHub**（例如在中国大陆）时，请联系向您提供卡密的代理或客服获取下载方式。
 
@@ -20,19 +20,19 @@ Connects Claude Code and Codex on your PC to ZilongAI in one click. No sign-up a
 
 界面语言跟随系统，也可以在「设置」里切换中文或英文。遇到问题，点击助手里的「联系客服」，还没开通也能留言。
 
-Windows 安装包的 SHA-256 指纹在 `SHA256SUMS.txt` 中，Mac 包在同一 Release 的 `SHA256SUMS-macOS.txt` 中。Windows 下载后可在 PowerShell 中运行以下命令，并与文件中的指纹核对：
+Windows 安装包的 SHA-256 指纹在 `SHA256SUMS.txt` 中，Mac 包在[对应 Mac 发布页](https://github.com/zilongai/zilongai-assistant/releases/tag/mac-v0.3.40)的 `SHA256SUMS-macOS.txt` 中。Windows 下载后可在 PowerShell 中运行以下命令，并与文件中的指纹核对：
 
 ```powershell
 Get-FileHash .\zilongai-assistant_x64-setup.exe -Algorithm SHA256
 ```
 
-Mac 可在终端运行 `shasum -a 256 ~/Downloads/zilongai-assistant_aarch64.dmg` 核对。
+Mac 可在终端运行 `shasum -a 256 ~/Downloads/zilongai-assistant_0.3.40_aarch64.dmg` 核对。
 
 ## Download and install
 
 **[Download the Windows installer](https://github.com/zilongai/zilongai-assistant/releases/latest/download/zilongai-assistant_x64-setup.exe)**: one click starts the download. It is always the latest version and updates itself after that. If a friend wants it too, just send this link; there is no zip file to pass around.
 
-**Apple silicon Mac 0.3.39: [Download DMG](https://github.com/zilongai/zilongai-assistant/releases/download/v0.3.39/zilongai-assistant_aarch64.dmg) · [Download ZIP](https://github.com/zilongai/zilongai-assistant/releases/download/v0.3.39/zilongai-assistant_aarch64.zip)**. Mac updates currently require manual installation: quit the assistant, open the DMG, drag the app into Applications and replace the previous version, then reopen it. Intel Macs are not supported. The app is ad-hoc signed and is not Apple-notarized. If macOS prompts on first launch, use System Settings → Privacy & Security → Open Anyway.
+**Apple silicon Mac 0.3.40: [First installation / upgrade from older versions (DMG)](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.40/zilongai-assistant_0.3.40_aarch64.dmg)**. Starting with this version, choose **Check for updates → Restart to update** in the assistant to download, install and restart automatically. Mac versions 0.3.39 and earlier require this one initial installation: quit the assistant, open the DMG, replace the app in Applications, then reopen it. Intel Macs are not supported. If macOS prompts on first launch, use System Settings → Privacy & Security → Open Anyway. Allow Keychain access when requested; if cancelled, retry in the assistant without activating a new account. The app is ad-hoc signed and is not Apple-notarized.
 
 **If GitHub does not open** (for example in mainland China), contact your reseller or support for a way to download it.
 
@@ -44,7 +44,7 @@ Mac 可在终端运行 `shasum -a 256 ~/Downloads/zilongai-assistant_aarch64.dmg
 
 The interface follows your system language, and you can switch between Chinese and English in **Settings**. If you run into trouble, choose **Contact support** in the assistant. It works even before activation. The full guide and troubleshooting are in the [User Guide](USER_GUIDE.md).
 
-Windows checksums are in `SHA256SUMS.txt`; Mac checksums are in `SHA256SUMS-macOS.txt` in the same Release. Use the PowerShell command above for Windows, or `shasum -a 256 ~/Downloads/zilongai-assistant_aarch64.dmg` on Mac, and compare with the relevant file.
+Windows checksums are in `SHA256SUMS.txt`; Mac checksums are in `SHA256SUMS-macOS.txt` on the [Mac release page](https://github.com/zilongai/zilongai-assistant/releases/tag/mac-v0.3.40). Use the PowerShell command above for Windows, or `shasum -a 256 ~/Downloads/zilongai-assistant_0.3.40_aarch64.dmg` on Mac, and compare with the relevant file.
 
 ## 联系 / Contact
 
