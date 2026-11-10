@@ -1,11 +1,11 @@
 {
-  "version": "0.3.40",
-  "notes": "Mac 现在可以在助手内检查、下载并安装更新。",
-  "pub_date": "2026-11-09T12:29:07Z",
+  "version": "0.3.42",
+  "notes": "0.3.42：Mac 和 Linux 的更新改为先走国内可直接访问的线路，连不上再用 GitHub；三个系统版本号统一。",
+  "pub_date": "2026-11-10T12:59:44Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUtLc1F5TkZLOWdJMnVibVZ2djhPbjg3dks5YlRZRks1eGlGN25YWVYxSFVrYmNXK2k5SHRZbnRpR2luczV2Z2tIMUZyZ0hFaUdtQ0E3Qm8wQitWa1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjI3MzQ3CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40MF9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDAKSytoNU1CanRSbWlyeFpNZElGWnJCWkN3T3gxQ0hUMG14ZmpOdlN0SFNWZ2xxNWlnUjU5RXZtcHpGSVVtdkU3WXBjMEc4cVowQUNERGJpWnBmMGI4RFE9PQo=",
-      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.40/zilongai-assistant_0.3.40_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUlQVTIvZGlIMy9BdGd3MkROaUFVMUpsdE1wenJHcTFKMVcyTjRIUFpmZHhQd1dqMDE1c1orVUxraWtESUhCdHJ3TDM1R1V4Z25tcFV2SGIzaW1HK0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE1NTg0CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40Ml9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDIKeThFcHhOeTJKS1NjL2E4aTRVZVBjeXJUTXlUK0l0K1JieWZtQ1JFM3BLVTU1NDdWb01IcnJ6MXQwOWh5RWRrclZIQTY1OUZ5R0RSTURrNUpIZ2RyQUE9PQo=",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.42/zilongai-assistant_0.3.42_aarch64.app.tar.gz"
     }
   }
 }
