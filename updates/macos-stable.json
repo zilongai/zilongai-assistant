@@ -1,11 +1,11 @@
 {
-  "version": "0.3.42",
-  "notes": "0.3.42：Mac 和 Linux 的更新改为先走国内可直接访问的线路，连不上再用 GitHub；三个系统版本号统一。",
-  "pub_date": "2026-11-10T12:59:44Z",
+  "version": "0.3.43",
+  "notes": "生图卡住时不再干等：图做好了会自动取回、不重复扣费；请求没送到会很快说明，可以重新生成。",
+  "pub_date": "2026-11-10T17:41:54Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUlQVTIvZGlIMy9BdGd3MkROaUFVMUpsdE1wenJHcTFKMVcyTjRIUFpmZHhQd1dqMDE1c1orVUxraWtESUhCdHJ3TDM1R1V4Z25tcFV2SGIzaW1HK0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE1NTg0CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40Ml9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDIKeThFcHhOeTJKS1NjL2E4aTRVZVBjeXJUTXlUK0l0K1JieWZtQ1JFM3BLVTU1NDdWb01IcnJ6MXQwOWh5RWRrclZIQTY1OUZ5R0RSTURrNUpIZ2RyQUE9PQo=",
-      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.42/zilongai-assistant_0.3.42_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUJTOGlXSlI1V2M4Qmo2ZWR5bnBVdTNJWmRRSGRxZlBkVGtWWU5vR1BPMy9ZejY3MWhtTE1EeTFUYk1FL1hiVnIrUHlPZGFUTVAzMkF1MFhjOHFVQ3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzMyNTE0CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40M19hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDMKVDJQMjJTd3RDZUVmdDdpQmI5NGRLL2NVcnR0WjVLKzVlWERlOElRVmd3NW9IbkNnRFl4RitCYWN2T3RTaFArQStLeTFpWTRJV3FBLzhrZXhodGJiRFE9PQo=",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.43/zilongai-assistant_0.3.43_aarch64.app.tar.gz"
     }
   }
 }
