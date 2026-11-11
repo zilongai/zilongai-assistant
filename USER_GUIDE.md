@@ -1,20 +1,20 @@
 # ZilongAI Assistant: User Guide
 
-Version 0.3.43 for Windows, Apple silicon Mac and Linux x64. Each platform receives signed updates.
+Version 0.3.44 for Windows, Apple silicon Mac and Linux x64. Each platform receives signed updates.
 
 ## Linux x64 quick start
 
-On Ubuntu desktop (22.04 or compatible), download the [deb package](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.43/zilongai-assistant_0.3.43_amd64.deb) or [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.43/zilongai-assistant_0.3.43_amd64.AppImage).
+On Ubuntu desktop (22.04 or compatible), download the [deb package](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.44/zilongai-assistant_0.3.44_amd64.deb) or [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.44/zilongai-assistant_0.3.44_amd64.AppImage).
 
 - Install the deb using the system software installer. Installation and deb updates require system approval.
 - For AppImage, allow execution in the file properties, then open it. Keep it in a writable folder for application updates. A system without FUSE can use the runtime's `--appimage-extract-and-run` option.
 - Unlock your system keyring if asked. Enter your Assistant card code, then install or take over Claude Code and Codex CLI from the home screen. The Linux edition integrates the command-line tools.
 - Use **Check for updates → Restart to update** for signed updates. Close the assistant using **Quit and restore settings** when finished; closing the window keeps it running.
-- Checksums and signatures are on the [Linux release page](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.43).
+- Checksums and signatures are on the [Linux release page](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.44).
 
 ## Before you start
 
-- A 64-bit Windows 10 or 11 PC, or an Apple silicon Mac. [Download the Mac 0.3.43 DMG](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.43/zilongai-assistant_0.3.43_aarch64.dmg). Mac 0.3.40 and later support **Check for updates → Restart to update** in the assistant. Mac 0.3.39 and earlier require one initial installation of this DMG: quit the assistant, open the DMG, replace the app in Applications, then reopen it. Allow Keychain access when requested; you can retry if cancelled without activating a new account. Intel Macs are not supported.
+- A 64-bit Windows 10 or 11 PC, or an Apple silicon Mac. [Download the Mac 0.3.44 DMG](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.44/zilongai-assistant_0.3.44_aarch64.dmg). Mac 0.3.40 and later support **Check for updates → Restart to update** in the assistant. Mac 0.3.39 and earlier require one initial installation of this DMG: quit the assistant, open the DMG, replace the app in Applications, then reopen it. Allow Keychain access when requested; you can retry if cancelled without activating a new account. Intel Macs are not supported.
 - Claude Code and Codex are optional. If you already have them (command line, VS Code extension or desktop app), the assistant takes them over directly. If not, install them from the assistant after activation.
 - A ZilongAI Assistant card code. Other card codes cannot be used for activation.
 
@@ -157,4 +157,5 @@ Contact the seller of your card. Points are not refunded on accounts banned for 
 ## Contact support
 
 - Choose **Contact support** in the assistant to leave a message, even before activation. You get a notification when support replies. The **Messages** page also lists other ways to reach us.
+- From 0.3.44, an activated assistant can attach a picture or a file to a message: paste a screenshot, drag a file into the window, or click the paperclip. Pictures up to 10 MB and common files (logs, PDF, zip and similar) up to 20 MB; programs are not accepted.
 - To get help faster, include the result of **Copy diagnostics** from **Settings**. It contains no tokens or keys.
