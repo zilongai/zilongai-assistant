@@ -1,11 +1,11 @@
 {
-  "version": "0.3.43",
-  "notes": "生图卡住时不再干等：图做好了会自动取回、不重复扣费；请求没送到会很快说明，可以重新生成。",
-  "pub_date": "2026-11-10T17:41:54Z",
+  "version": "0.3.44",
+  "notes": "消息页改成聊天的样子：可以给客服发图片和文件，截图可以直接粘贴或拖进来；新回复几秒就到。",
+  "pub_date": "2026-11-11T13:41:49Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUJTOGlXSlI1V2M4Qmo2ZWR5bnBVdTNJWmRRSGRxZlBkVGtWWU5vR1BPMy9ZejY3MWhtTE1EeTFUYk1FL1hiVnIrUHlPZGFUTVAzMkF1MFhjOHFVQ3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzMyNTE0CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40M19hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDMKVDJQMjJTd3RDZUVmdDdpQmI5NGRLL2NVcnR0WjVLKzVlWERlOElRVmd3NW9IbkNnRFl4RitCYWN2T3RTaFArQStLeTFpWTRJV3FBLzhrZXhodGJiRFE9PQo=",
-      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.43/zilongai-assistant_0.3.43_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUt1a3dVWFNkRkRGS2R5elNFVmVHM0dGY2NPcnRWcUk5U0puRUMxQm5vZDN1OGZVRm50Zk0xdWlRaGZRcW9FQjljZVgyQnhIblh2YXpVcEYvUEVVYXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDA0NTA5CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40NF9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDQKZ1FNVU1xUUlaZk1lVmowY3BvUmlZb1VuOUJFWTZJNEdscStWV3VXNlNQczVRM1AyRm5vRVVGalFybGF0c0ZIaVAycldIVjEvVHUvUzdjZjNwblRCRHc9PQo=",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.44/zilongai-assistant_0.3.44_aarch64.app.tar.gz"
     }
   }
 }
