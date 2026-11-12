@@ -1,11 +1,11 @@
 {
-  "version": "0.3.45",
-  "notes": "优化模型连接稳定性，统一使用 HTTP 流式。更新后请在任务结束后重新接管并重启所用 AI 工具；关闭接管或正常退出助手会恢复原配置。",
-  "pub_date": "2026-11-12T04:14:36Z",
+  "version": "0.3.46",
+  "notes": "模型列表自动跟随服务器更新，支持 Claude Code 和 Codex。首次更新后请在任务结束时重新接管并重启工具；此后新增模型无需更新助手。Claude 桌面版在下次启动时重新获取列表。",
+  "pub_date": "2026-11-12T15:07:18Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUpFM3E3dTloazdIb0NrbGhFU0NiZlFtQnZuTUxWYXdQWTlSVm5qZUM3SlYycVVJVm9KMnZEQy9CRFF6SnhGbUw1S0RCQXJQVVg0aExGZzZjNS9hNGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDU2ODc2CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40NV9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDUKSkd1TWliV0NydFQvTnVrYXBnNW52N1c0dytCOTU5a3RtNnNGZm5YVlE4Q3luUHZ6eGNxb3JwbE9sbnlQL3k4QjZCazBzYTlXYVpHcUtEVzVINEFsRFE9PQo=",
-      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.45/zilongai-assistant_0.3.45_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcU5KRWo1ai9ibHVRMkFOWVlnOGFreHZiVTV5d29VUTN6RVJvZzdqV21DUGRQU3NoOGtIbHR5VWFIUVZOVktDS0RCUFlLRkFzVFZuUHBJZDRDandMZWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDk2MDM4CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40Nl9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDYKT0dKS3IxaCtjdW5NOHhtbGl1eWo2RGJxbTFaSWdhM2FJdVhiUDZWelQ2UWFROXdyWlBTSGJzNnNrMUJvL3kwWThSYkhZcHBDWFhmU2NISjlMaVJzQmc9PQo=",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.46/zilongai-assistant_0.3.46_aarch64.app.tar.gz"
     }
   }
 }
