@@ -1,15 +1,15 @@
 {
-  "version": "0.3.44",
-  "notes": "\u6d88\u606f\u9875\u6539\u6210\u804a\u5929\u7684\u6837\u5b50\uff1a\u53ef\u4ee5\u7ed9\u5ba2\u670d\u53d1\u56fe\u7247\u548c\u6587\u4ef6\uff0c\u622a\u56fe\u53ef\u4ee5\u76f4\u63a5\u7c98\u8d34\u6216\u62d6\u8fdb\u6765\uff1b\u65b0\u56de\u590d\u51e0\u79d2\u5c31\u5230\u3002",
-  "pub_date": "2026-11-11T14:07:08.332885Z",
+  "version": "0.3.45",
+  "notes": "\u4f18\u5316\u6a21\u578b\u8fde\u63a5\u7a33\u5b9a\u6027\uff0c\u7edf\u4e00\u4f7f\u7528 HTTP \u6d41\u5f0f\u3002\u66f4\u65b0\u540e\u8bf7\u5728\u4efb\u52a1\u7ed3\u675f\u540e\u91cd\u65b0\u63a5\u7ba1\u5e76\u91cd\u542f\u6240\u7528 AI \u5de5\u5177\uff1b\u5173\u95ed\u63a5\u7ba1\u6216\u6b63\u5e38\u9000\u51fa\u52a9\u624b\u4f1a\u6062\u590d\u539f\u914d\u7f6e\u3002",
+  "pub_date": "2026-11-12T04:32:24.464374Z",
   "platforms": {
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcURaRG43d3pIcmlEb3dkVnY3UllGOXJBQ2E3bnRzNTdpQ3ZvbzBxTkI3b3YrQlZZNDlmdnY3cjdKMVh4RGdnMThPQ0g0N0ptcUVXN3Z1VWd0ZkhudndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDA2MDI3CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40NF9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMy40NAplczhpeEYzZ2xOSkx0YWhidmRjdWJvTGpCcjJuQXg3dmVGUGJUd2V2dEVmZXBSUWZObyt6bmlpWGR4eHJRZDN6dngvZlVTby9RSk51dWxMM0w2eEJBdz09Cg==",
-      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.44/zilongai-assistant_0.3.44_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUFqVW5oeldVRUtWcE5ZYm9WSmp3WnJMNXMzN2pkSDdPWFNRejk0MjNiRHZBZ2lmaFcrdHN6ZEJsY1NTWkZPcFl6WURkYW1aZFB5dmFkaVFQMU1iMndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDU3OTQzCWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40NV9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMy40NQpicFJHQXlyNzV6YXBYNDRuWkZQdG1Qd0hCcm9IL2FRQ2pCVU8ySmxSZ0RGWUdHWlpQaWpldWVzYi9Cb1l1RjkwL3JYa0RnbGVzRmdXTlNDOVlGSk1CUT09Cg==",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.45/zilongai-assistant_0.3.45_amd64.AppImage"
     },
     "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUl0TG9GVFIyL3I0QTM5ZjJGT0tHRTErQTlsTU1ublh3R05BYU5PbE5BSXkzaXQxZUdsQy80TUxVdURFQlgyQm5mL2Jib0VSeWZmaWNaUkdzUS8yc3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDA2MDI4CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40NF9hbWQ2NC5kZWIJdmVyc2lvbjowLjMuNDQKWk93OW9sZmYwUFp3TU50MUpvaUd4UGhtUE9BT0FrNmdJb3gyTXBxSHhhbUpSMGZnMVMzUGdKR1RaUjU0dXYxRTdrWHB2b0RkdGlwdG9mYWlmNDBuQmc9PQo=",
-      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.44/zilongai-assistant_0.3.44_amd64.deb"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUF6Y0NZU1hObzJTQTZxT2dDY1FmZzE3ajQwN200aVZXNDhsMDY3K3lEbEJoR1ArNnBNMGRvMTZLaDJwTHpwdEJoQmt0T3BLM2ZXNUJFVm8ydjJ6MmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDU3OTQ0CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40NV9hbWQ2NC5kZWIJdmVyc2lvbjowLjMuNDUKd0IwZnY2enVoUzF2dmxiZ3hmNHBocVpzUVh4NGtndUNrKzdMZHBrRVkycThPU3FtS0xRR3E4SXZvTWwyRWdWMU9oQkJHNENyQTM0bjdzcUg2M1QzQ1E9PQo=",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.45/zilongai-assistant_0.3.45_amd64.deb"
     }
   }
 }
