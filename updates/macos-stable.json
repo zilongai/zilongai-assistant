@@ -1,11 +1,11 @@
 {
-  "version": "0.3.44",
-  "notes": "消息页改成聊天的样子：可以给客服发图片和文件，截图可以直接粘贴或拖进来；新回复几秒就到。",
-  "pub_date": "2026-11-11T13:41:49Z",
+  "version": "0.3.45",
+  "notes": "优化模型连接稳定性，统一使用 HTTP 流式。更新后请在任务结束后重新接管并重启所用 AI 工具；关闭接管或正常退出助手会恢复原配置。",
+  "pub_date": "2026-11-12T04:14:36Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUt1a3dVWFNkRkRGS2R5elNFVmVHM0dGY2NPcnRWcUk5U0puRUMxQm5vZDN1OGZVRm50Zk0xdWlRaGZRcW9FQjljZVgyQnhIblh2YXpVcEYvUEVVYXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDA0NTA5CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40NF9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDQKZ1FNVU1xUUlaZk1lVmowY3BvUmlZb1VuOUJFWTZJNEdscStWV3VXNlNQczVRM1AyRm5vRVVGalFybGF0c0ZIaVAycldIVjEvVHUvUzdjZjNwblRCRHc9PQo=",
-      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.44/zilongai-assistant_0.3.44_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUpFM3E3dTloazdIb0NrbGhFU0NiZlFtQnZuTUxWYXdQWTlSVm5qZUM3SlYycVVJVm9KMnZEQy9CRFF6SnhGbUw1S0RCQXJQVVg0aExGZzZjNS9hNGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDU2ODc2CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40NV9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDUKSkd1TWliV0NydFQvTnVrYXBnNW52N1c0dytCOTU5a3RtNnNGZm5YVlE4Q3luUHZ6eGNxb3JwbE9sbnlQL3k4QjZCazBzYTlXYVpHcUtEVzVINEFsRFE9PQo=",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.45/zilongai-assistant_0.3.45_aarch64.app.tar.gz"
     }
   }
 }
