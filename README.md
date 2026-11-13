@@ -6,13 +6,13 @@ Connects Claude Code and Codex on your PC to ZilongAI in one click. No sign-up a
 
 ## 下载安装
 
-**0.3.46：Claude Code 和 Codex 的模型列表自动跟随服务器更新。首次升级后，请等当前任务结束，再重新接管并重启所用工具；之后新增模型无需再次更新助手。Claude Code 每分钟检查，Codex 约每 4 分半刷新。Claude 桌面版在下次正常启动时重新获取列表。关闭接管或正常退出仍恢复原配置。**
+**0.3.47：接管改为手动开启。每次打开或升级助手后，Claude Code 和 Codex 默认都不接管；请在首页分别开启需要的工具。关闭某个工具后立即停止转发其新请求，恢复配置失败会明确提示。要使用原线路，请关闭接管后重启该工具。模型列表自动更新继续保留。**
 
 **[下载 Windows 安装包](https://github.com/zilongai/zilongai-assistant/releases/latest/download/zilongai-assistant_x64-setup.exe)**：点一下就开始下载，总是最新版，以后会自动更新。朋友也要用的话，转发这个链接就行，不用发压缩包。
 
-**Mac Apple 芯片版 0.3.46：[首次安装／旧版升级（DMG）](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.46/zilongai-assistant_0.3.46_aarch64.dmg)**。0.3.40 起可在助手里点「检查更新 → 重启更新」下载、安装并自动重启。0.3.39 及更早的 Mac 版需先安装一次本版：退出旧版助手，打开 DMG，将「子龙AI 助手」拖入「应用程序」并替换旧版，再重新打开。不支持 Intel Mac。首次打开被 macOS 提示拦下时，在「系统设置 → 隐私与安全性」中选择「仍要打开」。系统要求读取钥匙串时请允许；取消后可在助手中重试，无需重新开通账户。应用采用临时签名，尚未经过 Apple 公证。
+**Mac Apple 芯片版 0.3.47：[首次安装／旧版升级（DMG）](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.47/zilongai-assistant_0.3.47_aarch64.dmg)**。0.3.40 起可在助手里点「检查更新 → 重启更新」下载、安装并自动重启。0.3.39 及更早的 Mac 版需先安装一次本版：退出旧版助手，打开 DMG，将「子龙AI 助手」拖入「应用程序」并替换旧版，再重新打开。不支持 Intel Mac。首次打开被 macOS 提示拦下时，在「系统设置 → 隐私与安全性」中选择「仍要打开」。系统要求读取钥匙串时请允许；取消后可在助手中重试，无需重新开通账户。应用采用临时签名，尚未经过 Apple 公证。
 
-**Linux x64 版 0.3.46（Ubuntu 桌面）：[deb 安装包](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.46/zilongai-assistant_0.3.46_amd64.deb) · [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.46/zilongai-assistant_0.3.46_amd64.AppImage)**。deb 可用系统软件安装器安装；AppImage 在文件属性中允许作为程序执行后打开。支持 Claude Code、Codex 命令行版、知识库和签名更新。首次使用请让系统密码库解锁；deb 更新需要系统安装授权。
+**Linux x64 版 0.3.47（Ubuntu 桌面）：[deb 安装包](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.47/zilongai-assistant_0.3.47_amd64.deb) · [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.47/zilongai-assistant_0.3.47_amd64.AppImage)**。deb 可用系统软件安装器安装；AppImage 在文件属性中允许作为程序执行后打开。支持 Claude Code、Codex 命令行版、知识库和签名更新。首次使用请让系统密码库解锁；deb 更新需要系统安装授权。
 
 **打不开 GitHub**（例如在中国大陆）时，请联系向您提供卡密的代理或客服获取下载方式。
 
@@ -24,25 +24,25 @@ Connects Claude Code and Codex on your PC to ZilongAI in one click. No sign-up a
 
 界面语言跟随系统，也可以在「设置」里切换中文或英文。遇到问题，点击助手里的「联系客服」，还没开通也能留言。0.3.44 起，开通后的留言可以带图片和文件：截图直接粘贴，文件拖进窗口，或点回形针（图片 10 MB、文件 20 MB 以内）。
 
-Linux 校验值见 [Linux 发布页](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.46)的 `SHA256SUMS-Linux.txt`。
+Linux 校验值见 [Linux 发布页](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.47)的 `SHA256SUMS-Linux.txt`。
 
-Windows 安装包的 SHA-256 指纹在 `SHA256SUMS.txt` 中，Mac 包在[对应 Mac 发布页](https://github.com/zilongai/zilongai-assistant/releases/tag/mac-v0.3.46)的 `SHA256SUMS-macOS.txt` 中。Windows 下载后可在 PowerShell 中运行以下命令，并与文件中的指纹核对：
+Windows 安装包的 SHA-256 指纹在 `SHA256SUMS.txt` 中，Mac 包在[对应 Mac 发布页](https://github.com/zilongai/zilongai-assistant/releases/tag/mac-v0.3.47)的 `SHA256SUMS-macOS.txt` 中。Windows 下载后可在 PowerShell 中运行以下命令，并与文件中的指纹核对：
 
 ```powershell
 Get-FileHash .\zilongai-assistant_x64-setup.exe -Algorithm SHA256
 ```
 
-Mac 可在终端运行 `shasum -a 256 ~/Downloads/zilongai-assistant_0.3.46_aarch64.dmg` 核对。
+Mac 可在终端运行 `shasum -a 256 ~/Downloads/zilongai-assistant_0.3.47_aarch64.dmg` 核对。
 
 ## Download and install
 
-**0.3.46 keeps Claude Code and Codex model lists synchronized with the server. After this first upgrade, finish your current task, apply takeover again, and restart the tool. Later model additions do not require another assistant update. Claude Code checks every minute; Codex refreshes about every 4.5 minutes. The Claude desktop app fetches the directory on its next normal startup. Disabling takeover or quitting still restores the previous configuration.**
+**0.3.47 makes takeover opt-in. Every assistant start or upgrade leaves Claude Code and Codex off; enable each tool explicitly on the overview. Turning a tool off blocks new requests immediately and reports configuration restoration failures. Restart the tool after disabling takeover to use its original provider. Automatic model catalog updates remain available.**
 
 **[Download the Windows installer](https://github.com/zilongai/zilongai-assistant/releases/latest/download/zilongai-assistant_x64-setup.exe)**: one click starts the download. It is always the latest version and updates itself after that. If a friend wants it too, just send this link; there is no zip file to pass around.
 
-**Apple silicon Mac 0.3.46: [First installation / upgrade from older versions (DMG)](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.46/zilongai-assistant_0.3.46_aarch64.dmg)**. From 0.3.40, choose **Check for updates → Restart to update** in the assistant to download, install and restart automatically. Mac versions 0.3.39 and earlier require this one initial installation: quit the assistant, open the DMG, replace the app in Applications, then reopen it. Intel Macs are not supported. If macOS prompts on first launch, use System Settings → Privacy & Security → Open Anyway. Allow Keychain access when requested; if cancelled, retry in the assistant without activating a new account. The app is ad-hoc signed and is not Apple-notarized.
+**Apple silicon Mac 0.3.47: [First installation / upgrade from older versions (DMG)](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.47/zilongai-assistant_0.3.47_aarch64.dmg)**. From 0.3.40, choose **Check for updates → Restart to update** in the assistant to download, install and restart automatically. Mac versions 0.3.39 and earlier require this one initial installation: quit the assistant, open the DMG, replace the app in Applications, then reopen it. Intel Macs are not supported. If macOS prompts on first launch, use System Settings → Privacy & Security → Open Anyway. Allow Keychain access when requested; if cancelled, retry in the assistant without activating a new account. The app is ad-hoc signed and is not Apple-notarized.
 
-**Linux x64 0.3.46 (Ubuntu desktop): [Debian package](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.46/zilongai-assistant_0.3.46_amd64.deb) · [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.46/zilongai-assistant_0.3.46_amd64.AppImage)**. Install the deb with your system software installer, or allow the AppImage to run as a program in its file properties. Includes Claude Code and Codex CLI integration, the knowledge base and signed updates. Unlock the system keyring when requested; deb updates need system installation approval.
+**Linux x64 0.3.47 (Ubuntu desktop): [Debian package](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.47/zilongai-assistant_0.3.47_amd64.deb) · [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.47/zilongai-assistant_0.3.47_amd64.AppImage)**. Install the deb with your system software installer, or allow the AppImage to run as a program in its file properties. Includes Claude Code and Codex CLI integration, the knowledge base and signed updates. Unlock the system keyring when requested; deb updates need system installation approval.
 
 **If GitHub does not open** (for example in mainland China), contact your reseller or support for a way to download it.
 
@@ -54,9 +54,9 @@ Mac 可在终端运行 `shasum -a 256 ~/Downloads/zilongai-assistant_0.3.46_aarc
 
 The interface follows your system language, and you can switch between Chinese and English in **Settings**. If you run into trouble, choose **Contact support** in the assistant. It works even before activation. The full guide and troubleshooting are in the [User Guide](USER_GUIDE.md).
 
-Linux checksums are in `SHA256SUMS-Linux.txt` on the [Linux release page](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.46).
+Linux checksums are in `SHA256SUMS-Linux.txt` on the [Linux release page](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.47).
 
-Windows checksums are in `SHA256SUMS.txt`; Mac checksums are in `SHA256SUMS-macOS.txt` on the [Mac release page](https://github.com/zilongai/zilongai-assistant/releases/tag/mac-v0.3.46). Use the PowerShell command above for Windows, or `shasum -a 256 ~/Downloads/zilongai-assistant_0.3.46_aarch64.dmg` on Mac, and compare with the relevant file.
+Windows checksums are in `SHA256SUMS.txt`; Mac checksums are in `SHA256SUMS-macOS.txt` on the [Mac release page](https://github.com/zilongai/zilongai-assistant/releases/tag/mac-v0.3.47). Use the PowerShell command above for Windows, or `shasum -a 256 ~/Downloads/zilongai-assistant_0.3.47_aarch64.dmg` on Mac, and compare with the relevant file.
 
 ## 联系 / Contact
 
