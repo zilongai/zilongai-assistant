@@ -1,11 +1,11 @@
 {
-  "version": "0.3.47",
-  "notes": "接管改为手动开启：每次打开或升级助手后默认不接管，Claude Code 与 Codex 分别点击开启。关闭后停止对应工具的新请求，配置恢复失败会明确提示。",
-  "pub_date": "2026-11-13T03:48:29Z",
+  "version": "0.3.49",
+  "notes": "修复 Codex 模型列表在网络波动或临时服务故障时变空：保留最后成功目录，重启后继续可用，首次离线有默认目录，联网恢复后自动更新。更新后等当前任务结束，重新接管并重启 Codex 一次。",
+  "pub_date": "2026-11-13T14:55:49Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUZtQ09HV0pZa2twU2hMbll4Q1hQYi9LbHZ6Q1FlYXB6cFZsY2RDd3VTNU56Ujk0OVRkRGVYNVhIbUpnQzh3NVQ2N3IwSE5lVlBPc09EbEI0ellnR3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTQxNzA5CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40N19hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDcKckhkS1ZQWnllUkhiSjZjdWdlOEQrMGhhQi81N2Q1Uk4wb2VOWXR2ZmZMMHlZQVJ0YTc4VGlVQ2JpMVlHMnViZnVoNmNuNUdDVkZ6dVR1cm1tTzM2QWc9PQo=",
-      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.47/zilongai-assistant_0.3.47_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdjVBbndMM09XcUVtb1gyY1k3aGcwNlhjUm1MNkhOVGw3cU5INEkrN1VSUVlIMkhVS3ZyWmNIQnVNSVZrWXpldFQ4aHVqb1BNemZmU0txR01zMmVPRmMzdGpsOWJKeVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTgxNzQ5CWZpbGU6emlsb25nYWktYXNzaXN0YW50XzAuMy40OV9hYXJjaDY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNDkKM2lvQlBCSGdBNlFvVGdFNEFFMUdHaXpJdEt4WWthaWdsUGZrVmFCeFIwT2tGL053MXhwb1lQZWQwM3ZYeGUwUEo4L3FZM05Nck1FZ05ST1NyeEtMQlE9PQo=",
+      "url": "https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.49/zilongai-assistant_0.3.49_aarch64.app.tar.gz"
     }
   }
 }
