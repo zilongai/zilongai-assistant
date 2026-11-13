@@ -1,21 +1,21 @@
 # ZilongAI Assistant: User Guide
 
-Version 0.3.46 for Windows, Apple silicon Mac and Linux x64. Each platform receives signed updates.
+Version 0.3.47 for Windows, Apple silicon Mac and Linux x64. Each platform receives signed updates.
 
 ## Linux x64 quick start
 
-On Ubuntu desktop (22.04 or compatible), download the [deb package](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.46/zilongai-assistant_0.3.46_amd64.deb) or [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.46/zilongai-assistant_0.3.46_amd64.AppImage).
+On Ubuntu desktop (22.04 or compatible), download the [deb package](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.47/zilongai-assistant_0.3.47_amd64.deb) or [AppImage](https://github.com/zilongai/zilongai-assistant/releases/download/linux-v0.3.47/zilongai-assistant_0.3.47_amd64.AppImage).
 
 - Install the deb using the system software installer. Installation and deb updates require system approval.
 - For AppImage, allow execution in the file properties, then open it. Keep it in a writable folder for application updates. A system without FUSE can use the runtime's `--appimage-extract-and-run` option.
 - Unlock your system keyring if asked. Enter your Assistant card code, then install or take over Claude Code and Codex CLI from the home screen. The Linux edition integrates the command-line tools.
 - Use **Check for updates → Restart to update** for signed updates. Close the assistant using **Quit and restore settings** when finished; closing the window keeps it running.
-- Checksums and signatures are on the [Linux release page](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.46).
+- Checksums and signatures are on the [Linux release page](https://github.com/zilongai/zilongai-assistant/releases/tag/linux-v0.3.47).
 
 ## Before you start
 
-- A 64-bit Windows 10 or 11 PC, or an Apple silicon Mac. [Download the Mac 0.3.46 DMG](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.46/zilongai-assistant_0.3.46_aarch64.dmg). Mac 0.3.40 and later support **Check for updates → Restart to update** in the assistant. Mac 0.3.39 and earlier require one initial installation of this DMG: quit the assistant, open the DMG, replace the app in Applications, then reopen it. Allow Keychain access when requested; you can retry if cancelled without activating a new account. Intel Macs are not supported.
-- Claude Code and Codex are optional. If you already have them (command line, VS Code extension or desktop app), the assistant takes them over directly. If not, install them from the assistant after activation.
+- A 64-bit Windows 10 or 11 PC, or an Apple silicon Mac. [Download the Mac 0.3.47 DMG](https://github.com/zilongai/zilongai-assistant/releases/download/mac-v0.3.47/zilongai-assistant_0.3.47_aarch64.dmg). Mac 0.3.40 and later support **Check for updates → Restart to update** in the assistant. Mac 0.3.39 and earlier require one initial installation of this DMG: quit the assistant, open the DMG, replace the app in Applications, then reopen it. Allow Keychain access when requested; you can retry if cancelled without activating a new account. Intel Macs are not supported.
+- Claude Code and Codex are optional. If you already have them (command line, VS Code extension or desktop app), you can enable takeover manually. If not, install them from the assistant after activation.
 - A ZilongAI Assistant card code. Other card codes cannot be used for activation.
 
 ## Step 1: Download and install
@@ -43,12 +43,14 @@ On Ubuntu desktop (22.04 or compatible), download the [deb package](https://gith
 
 ## Step 3: Connect Claude Code and Codex
 
-From 0.3.46, model lists follow the server automatically. After this first upgrade, finish any active task, apply takeover again, and restart the tool once. Claude Code checks the list every minute; Codex uses its native refresh about every 4.5 minutes. Your current conversation and selected model stay unchanged. The Claude desktop app obtains the new directory on its next normal startup.
+In 0.3.47, every assistant launch or upgrade starts with both tools off. Signing in or installing a tool does not enable takeover. Turn on each tool explicitly. Turning it off blocks new requests immediately; restart the tool to use its original settings. Configuration restoration failures are reported.
+
+From 0.3.47, model lists follow the server automatically. After this first upgrade, finish any active task, apply takeover again, and restart the tool once. Claude Code checks the list every minute; Codex uses its native refresh about every 4.5 minutes. Your current conversation and selected model stay unchanged. The Claude desktop app obtains the new directory on its next normal startup.
 
 1. Turn on the Claude Code and Codex switches on the **Overview** page. The assistant connects them to ZilongAI.
 2. You do not need a terminal. **Open app** opens the desktop app: the Codex app is now part of the ChatGPT app, and the Claude app is Claude's desktop app. **Open terminal** appears only when the command-line version is installed, and starts it in a new terminal window in your last project folder. Once connected, the Claude app uses ZilongAI with no Claude sign-in. When you quit the assistant, its original sign-in comes back.
 3. If something is not installed, install it from the assistant:
-   - Choose **Install app** for a desktop app or **Install CLI** for a command-line version. After you confirm, the button shows download and install progress. When it finishes, you are told what to click next, and it connects to ZilongAI automatically.
+   - Choose **Install app** for a desktop app or **Install CLI** for a command-line version. After you confirm, the button shows download and install progress. When it finishes, you are told what to click next, then manually enable takeover if you want to use ZilongAI.
    - This is the official software, downloaded from the official source and checked. It goes in your user folder with no administrator rights. It updates itself, and quitting or uninstalling the assistant does not remove it.
    - The Codex app (listed as ChatGPT in the Microsoft Store) comes only from the Microsoft Store. The assistant installs it for you. If it cannot, the Store page opens: choose **Get**, then come back and choose **Open app**. If the Store does not work either (for example in mainland China), choose **Install CLI** to use the command-line version instead.
    - If the official Codex CLI download is unavailable (for example in mainland China), the assistant automatically downloads the same official program from a mirror in China and verifies its checksum. You do not need to do anything.
